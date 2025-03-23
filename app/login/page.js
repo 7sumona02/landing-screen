@@ -4,7 +4,7 @@ import { Label } from "@/components/ui/label";
 
 export default function Login() {
   return (
-    <div className="bg-neutral-100 flex min-h-screen flex-col items-start justify-start p-8">
+    <div className="bg-neutral-100 flex h-screen flex-col items-start justify-start p-8">
       <main className="w-full max-w-md space-y-8">
         <div className="">
           <h1 className="text-2xl font-bold tracking-tight">Signin to your <br /> PopX account</h1>

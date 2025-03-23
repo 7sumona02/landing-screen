@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-neutral-100 flex min-h-screen flex-col justify-end p-8">
+    <div className="bg-neutral-100 flex h-screen flex-col justify-end p-8">
       <main className="flex flex-col items-start">
         <h1 className="text-2xl font-bold tracking-tighter pb-2">Welcome to PopX</h1>
         <p className="text-lg text-muted-foreground pb-4">
