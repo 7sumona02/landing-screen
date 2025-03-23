@@ -13,7 +13,7 @@ export default function Account() {
   return (
     <div className="flex h-screen flex-col items-start justify-start bg-neutral-100">
       <main className="w-full max-w-md">
-        <div className="bg-white p-4">
+        <div className="bg-white py-4 px-8">
           <h1 className="text-lg font-medium tracking-tight">Account Settings</h1>
         </div>
         <div className="h-full">
