@@ -15,8 +15,8 @@ export default function Account() {
         <div className="bg-white p-4">
           <h1 className="text-lg font-medium tracking-tight">Account Settings</h1>
         </div>
-        <div className="h-full border-b pb-4">
-            <div className="p-8 flex items-start space-x-4">
+        <div className="h-full">
+            <div className="px-8 py-6 flex items-start space-x-4">
                 <Avatar className="size-12 bg-white">
                     <AvatarImage src={mockUser.avatarUrl} alt={""} />
                     <AvatarFallback>JD</AvatarFallback>
@@ -26,7 +26,7 @@ export default function Account() {
                     <p className="text-xs text-muted-foreground">{mockUser.email}</p>
                 </div>
             </div>
-            <div className="px-8">
+            <div className="px-8 border-b pb-6">
                 <p className="text-xs">{mockUser.description}</p>
             </div>
         </div>

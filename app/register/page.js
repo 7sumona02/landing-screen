@@ -42,8 +42,8 @@ export default function Register() {
             </div>
 
             <div className="grid w-full max-w-sm items-center gap-1.5">
-                <Label htmlFor="company" className="text-violet-700">Company Name<span className="text-red-500">*</span></Label>
-                <Input type="text" id="company" name="company" placeholder="" className="text-sm" required aria-required="true" />
+                <Label htmlFor="company" className="text-violet-700">Company Name</Label>
+                <Input type="text" id="company" name="company" placeholder="" className="text-sm" />
             </div>
 
             <div className="grid w-full max-w-sm items-center gap-1.5">
