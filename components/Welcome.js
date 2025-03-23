@@ -1,6 +1,6 @@
 export default function Welcome() {
     return (
-      <div className="bg-neutral-50 flex flex-col items-center justify-center min-h-screen">
+      <div className="bg-neutral-50 flex flex-col items-center justify-center h-screen">
         <h1 className="text-4xl font-bold mb-8">Welcome to My App</h1>
         <div className="space-x-4">
           <a href="/create-account">
