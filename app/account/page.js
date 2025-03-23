@@ -1,6 +1,4 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 export default function Account() {
   // This would typically fetch user data from an API/backend
