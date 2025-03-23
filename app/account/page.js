@@ -1,3 +1,4 @@
+import Camera from "@/components/Camera";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Account() {
@@ -17,10 +18,13 @@ export default function Account() {
         </div>
         <div className="h-full">
             <div className="px-8 py-6 flex items-start space-x-4">
-                <Avatar className="size-12 bg-white">
-                    <AvatarImage src={mockUser.avatarUrl} alt={""} />
-                    <AvatarFallback>JD</AvatarFallback>
-                </Avatar>                
+                <div className="relative">
+                    <Avatar className="size-12 bg-white">
+                        <AvatarImage src={mockUser.avatarUrl} alt={""} />
+                        <AvatarFallback>JD</AvatarFallback>
+                    </Avatar>   
+                    <div className="absolute bottom-0.5 -right-1 bg-violet-700 p-1 rounded-full"><Camera /></div>
+                </div>             
                 <div>
                     <h2 className="text-sm font-medium text-black">{mockUser.name}</h2>
                     <p className="text-xs text-muted-foreground">{mockUser.email}</p>
